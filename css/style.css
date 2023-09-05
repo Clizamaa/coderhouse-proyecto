@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+nav{
+    display: flex; /* Utiliza flexbox para centrar */
+    justify-content: center; /* Centra los elementos horizontalmente */
+    align-items: center;
+    background-color: #110d0d;/* Color de fondo del navbar */
+    
+}
+
+nav img{
+    width: 100px;
+    margin-right: 20px;
+}
+
+
+li{
+    display: inline-block;
+    padding: 0 10px;
+}
+
+li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+/* section{
+    width: 100%;
+} */
+
+.background {
+    background-image: url(../img/Crew_6_Desktop_9857f5c2f0.jpg);
+    /* background-color: black; */
+    height: 96vh;
+    /* position: absolute; */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
