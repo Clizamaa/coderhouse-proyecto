@@ -10,7 +10,7 @@ nav{
     display: flex; /* Utiliza flexbox para centrar */
     justify-content: center; /* Centra los elementos horizontalmente */
     align-items: center;
-    background-color: #110d0d;/* Color de fondo del navbar */
+    background-color: #000;/* Color de fondo del navbar */
     
 }
 
@@ -34,7 +34,7 @@ li a{
     width: 100%;
 } */
 
-.background {
+.background-home {
     background-image: url(../img/Crew_6_Desktop_9857f5c2f0.jpg);
     /* background-color: black; */
     height: 96vh;
@@ -42,4 +42,58 @@ li a{
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+.background-falcon-9 {
+    background-image: url(../img/f9_feature.jpg);
+    /* background-color: black; */
+    height: 96vh;
+    /* position: absolute; */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.background-dragon {
+    background-image: url(../img/dragon_feature.jpg);
+    /* background-color: black; */
+    height: 96vh;
+    /* position: absolute; */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.background-falcon-heavy {
+    background-image: url(../img/fh_feature.jpg);
+    /* background-color: black; */
+    height: 96vh;
+    /* position: absolute; */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.background-star-ship {
+    background-image: url(../img/Starhip_website.jpg);
+    /* background-color: black; */
+    height: 96vh;
+    /* position: absolute; */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    background: #000;
+    text-transform: uppercase;
+}
+
+footer span{
+    color: #fff;
+}
+
+footer a{
+    color: #fff;
+    text-decoration: none;
 }
