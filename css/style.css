@@ -38,6 +38,21 @@ li a{
     background-size: cover;
 }
 
+.background-home-starlink{
+    background-image: url(../img/starlink.jpg);
+    height: 96vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.background-home-testingFlight{
+    background-image: url(../img/Testflight.jpg);
+    height: 96vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 p{
  margin-top: 0;
  color: #fff;
@@ -93,6 +108,8 @@ footer a{
     text-decoration: none;
 }
 
+/* estilos especificos falcon9.html */
+
 .background-falcon-9 {
     background-image: url(../img/f9_feature.jpg);
     height: 96vh;
@@ -100,6 +117,49 @@ footer a{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.background-black{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    height: 96vh;
+    flex-direction: row;
+    align-items: center;
+}
+
+.video-description{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.video{
+    display: flex;
+}
+
+.background-descripcion {
+    background-image: url(../img/f9.jpg);
+    height: 96vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.description-f9{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+}
+
+.parrafo-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+
+/* estilos especificos dragon.html */
+
 .background-dragon {
     background-image: url(../img/dragon_feature.jpg);
     height: 96vh;
@@ -107,6 +167,9 @@ footer a{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+/* estilos especificos falcon-heavy.html */
+
 .background-falcon-heavy {
     background-image: url(../img/fh_feature.jpg);
     height: 96vh;
@@ -114,6 +177,9 @@ footer a{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+/* estilos especificos star-ship.html */
+
 .background-star-ship {
     background-image: url(../img/Starhip_website.jpg);
     height: 96vh;
